@@ -3,7 +3,12 @@
 [![CI](https://github.com/csaizbc/devops-workflow-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/csaizbc/devops-workflow-lab/actions/workflows/ci.yml)
 
 A small end-to-end project for learning GitHub collaboration, automation, testing, release, and deployment workflows.
+## Preview the dashboard
 
+Generate the latest report:
+
+```bash
+python src/generate_report.py
 ## Features
 
 - Load sample research-paper data from JSON.
