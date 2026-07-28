@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Temporary files
+.cache/
+*.tmp
+*.temp
+
+# Private or large research data
+data/raw/
+data/private/
+*.parquet
