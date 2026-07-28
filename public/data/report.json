@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-07-28T04:12:27.491241+00:00",
+  "total_papers": 4,
+  "category_counts": {
+    "AI Agents": 2,
+    "Multi-Agent Systems": 1,
+    "Quantitative Finance": 1
+  },
+  "papers": [
+    {
+      "id": "paper-001",
+      "title": "Agentic Workflow Evaluation",
+      "category": "AI Agents",
+      "published_at": "2026-07-21"
+    },
+    {
+      "id": "paper-002",
+      "title": "Multi-Agent Coordination Under Uncertainty",
+      "category": "Multi-Agent Systems",
+      "published_at": "2026-07-22"
+    },
+    {
+      "id": "paper-003",
+      "title": "Retrieval-Augmented Research Agents",
+      "category": "AI Agents",
+      "published_at": "2026-07-23"
+    },
+    {
+      "id": "paper-004",
+      "title": "Robust Backtesting for Financial Signals",
+      "category": "Quantitative Finance",
+      "published_at": "2026-07-24"
+    }
+  ]
+}
