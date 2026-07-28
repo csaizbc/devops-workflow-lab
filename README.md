@@ -54,3 +54,10 @@ Issue → Branch → Commit → Pull Request → Review → Merge
 ## License
 
 This project is licensed under the MIT License.
+
+## Run tests
+
+Install development dependencies:
+
+```bash
+python -m pip install -r requirements-dev.txt
