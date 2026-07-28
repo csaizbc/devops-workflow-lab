@@ -34,7 +34,7 @@ jobs:
           python -m pip install -r requirements-dev.txt
 
       - name: Run unit tests
-        run: python -m pytest -q tests/does_not_exist.py
+        run: python -m pytest -q
 
       - name: Generate research report
         run: python src/generate_report.py
