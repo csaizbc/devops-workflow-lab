@@ -1,5 +1,7 @@
 # DevOps Workflow Lab
 
+[![CI](https://github.com/csaizbc/devops-workflow-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/csaizbc/devops-workflow-lab/actions/workflows/ci.yml)
+
 A small end-to-end project for learning GitHub collaboration, automation, testing, release, and deployment workflows.
 
 ## Features
