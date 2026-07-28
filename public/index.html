@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="A research radar dashboard generated from structured paper data."
+  >
+  <title>Research Radar</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">DevOps Workflow Lab</p>
+        <h1>Research Radar</h1>
+        <p class="hero-description">
+          Track research coverage, categories, and recently collected papers
+          from one generated dataset.
+        </p>
+      </div>
+
+      <div class="live-badge">
+        <span class="live-dot" aria-hidden="true"></span>
+        Live dataset
+      </div>
+    </header>
+
+    <main>
+      <section
+        id="status-panel"
+        class="status-panel"
+        role="status"
+        aria-live="polite"
+      >
+        <p class="eyebrow">Data status</p>
+        <h2 id="status-title">Loading research data...</h2>
+        <p id="status-message">
+          Fetching the latest generated report.
+        </p>
+      </section>
+
+      <section id="dashboard" class="dashboard" hidden>
+        <section class="metrics-grid" aria-label="Dataset summary">
+          <article class="metric-card">
+            <p class="metric-label">Total papers</p>
+            <strong id="total-papers" class="metric-value">0</strong>
+          </article>
+
+          <article class="metric-card">
+            <p class="metric-label">Last generated</p>
+            <time id="generated-at" class="metric-date">—</time>
+          </article>
+        </section>
+
+        <section class="content-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Coverage</p>
+              <h2>Research categories</h2>
+            </div>
+          </div>
+
+          <div
+            id="category-list"
+            class="category-grid"
+            aria-label="Research category statistics"
+          ></div>
+        </section>
+
+        <section class="content-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Library</p>
+              <h2>Tracked papers</h2>
+            </div>
+          </div>
+
+          <div id="paper-list" class="paper-grid"></div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Generated from <code>public/data/report.json</code>
+    </footer>
+  </div>
+</body>
+</html>
