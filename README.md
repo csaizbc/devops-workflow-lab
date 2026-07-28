@@ -2,7 +2,12 @@
 
 [![CI](https://github.com/csaizbc/devops-workflow-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/csaizbc/devops-workflow-lab/actions/workflows/ci.yml)
 
+## Live dashboard
+
+[Open the live Research Radar dashboard](https://csaizbc.github.io/devops-workflow-lab/)
+
 A small end-to-end project for learning GitHub collaboration, automation, testing, release, and deployment workflows.
+
 ## Preview the dashboard
 
 Generate the latest report:
