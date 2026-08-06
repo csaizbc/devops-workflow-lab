@@ -14,6 +14,8 @@ Generate the latest report:
 
 ```bash
 python src/generate_report.py
+```
+
 ## Features
 
 - Load sample research-paper data from JSON.
@@ -73,3 +75,4 @@ Install development dependencies:
 
 ```bash
 python -m pip install -r requirements-dev.txt
+```
